@@ -9,7 +9,12 @@
 [![Slack](https://img.shields.io/badge/slack-@deepfence-blue.svg?logo=slack)](https://join.slack.com/t/deepfence-community/shared_invite/zt-podmzle9-5X~qYx8wMaLt9bGWwkSdgQ)
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fdeepfence%2FThreatMapper)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fdeepfence%2FThreatMapper)
 
-# Deepfence ThreatMapper
+###
+### CVE-2021-44228 Log4J Vulnerability can be detected at runtime and attack paths can be visualized by ThreatMapper.
+- Live demo of Log4J Vulnerability [here](https://github.com/deepfence/ThreatMapper/wiki/ThreatMapper-Demo)
+- More details [here](https://deepfence.io/cve-2021-44228-log4j2-exploitability-and-attack-path-mitigation-with-threatmapper/)
+
+# ThreatMapper - Runtime Vulnerability Management and Attack Path Enumeration for Cloud Native
 
 Deepfence ThreatMapper hunts for vulnerabilities in your production platforms, and ranks these vulnerabilities based on their risk-of-exploit. You can then prioritize the issues that present the greatest risk to the security of your applications - [read more](https://github.com/deepfence/ThreatMapper/wiki/Introduction).
 
@@ -44,7 +49,7 @@ ThreatMapper then monitors your development or production workloads using Sensor
 
 ## Install the Management Console
 
-Installating the management console on a Docker host (4 cores, 16Gb) is as straightforward as:
+Installing the management console on a Docker host (4 cores, 16Gb) is as straightforward as:
 
 ```shell script
 wget https://github.com/deepfence/ThreatMapper/raw/master/deployment-scripts/docker-compose.yml
@@ -86,7 +91,7 @@ When the console first starts up, it will begin to acquire the Threat Intel feed
 
 ## Install the ThreatMapper Sensor Agents
 
-Install the Sensor Agents on your production or development platforms.  The Sensor Agents report to the Management Console; they tell it what services they discover, provide telemetry and generate manifests of software dependencies.
+Install the Sensor Agents on your production or development platforms. The Sensor Agents report to the Management Console; they tell it what services they discover, provide telemetry and generate manifests of software dependencies.
 
 The following production platforms are supported by ThreatMapper sensors:
 
@@ -149,7 +154,7 @@ Check out the [Deepfence ThreatMapper wiki](https://github.com/deepfence/ThreatM
 
 For any security-related issues in the ThreatMapper project, contact **productsecurity *at* deepfence *dot* io**.
 
-Please file Github issues as needed, and join the Deepfence Community [Slack channel](https://join.slack.com/t/deepfence-community/shared_invite/zt-podmzle9-5X~qYx8wMaLt9bGWwkSdgQ).
+Please file GitHub issues as needed, and join the Deepfence Community [Slack channel](https://join.slack.com/t/deepfence-community/shared_invite/zt-podmzle9-5X~qYx8wMaLt9bGWwkSdgQ).
 
 # License
 
